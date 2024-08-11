@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>paqcompress</id>
+    <version>0.6.1</version>
+	<packageSourceUrl>https://github.com/jzelAdmin2006/paqcompress2choco</packageSourceUrl>
+	<owners>Johannes Zeller</owners>
+    <title>PAQCompress</title>
+    <authors>Moisés Cardona</authors>
+    <projectUrl>https://moisescardona.me/paqcompress/</projectUrl>
+	<projectSourceUrl>https://github.com/moisespr123/PAQCompress</projectSourceUrl>
+	<mailingListUrl>https://moisescardona.me/paqcompress/</mailingListUrl>
+    <bugTrackerUrl>https://github.com/moisespr123/PAQCompress/issues</bugTrackerUrl>
+    <tags>paqcompress paq compressor compression lossless</tags>
+    <summary>Graphical User Interface for the powerful PAQ Compression software</summary>
+    <description>With PAQCompress, you can compress your files using the latest PAQ versions, preferably using PAQ8PX. You can save a lot of space but at the expense of speed and RAM consumption. Hence, PAQ is great for small files, but also for big files if you have a lot of patience.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools"/>
+  </files>
+</package>
